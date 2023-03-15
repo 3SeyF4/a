@@ -1,0 +1,10 @@
+.header {
+  background: linear-gradient(to bottom, rgb(2, 212, 48), aqua);
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  display: flex;
+  font-size: 1.75rem;
+  letter-spacing: 1px;
+}
