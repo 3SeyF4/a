@@ -6,7 +6,7 @@ import products from "./products.json";
 import Basket from "./component/Basket";
 
 function App() {
-  const [money, setMoney] = useState(1000);
+  const [money, setMoney] = useState(2000);
   const [basket, setBasket] = useState([]);
   const [total, setTotal] = useState(0);
 
@@ -28,16 +28,18 @@ function App() {
   return (
     <div className="App">
       <Header money={money} total={total} />
-      {products.map((product) => (
-        <Product
-          key={product.id}
-          basket={basket}
-          setBasket={setBasket}
-          product={product}
-          total={total}
-          money={money}
-        />
-      ))}
+      <div className="container products">
+        {products.map((product) => (
+          <Product
+            key={product.id}
+            basket={basket}
+            setBasket={setBasket}
+            product={product}
+            total={total}
+            money={money}
+          />
+        ))}
+      </div>
       <Basket total={total} products={products} basket={basket} />
       <button onClick={resetBasket}>Sıfırla</button>
     </div>

@@ -4,7 +4,11 @@ import "./Header.css";
 const Header = ({ money, total }) => {
   return (
     <div className="header">
-      {(total > 0 && <>Harcamak için ${money - total} paranız kaldı.</>) || (
+      {(total > 0 && (
+        <>
+          Harcamak için <span>${money - total}</span> paranız kaldı.
+        </>
+      )) || (
         <>
           Harcamak için <span>${money}</span> paranız var.{" "}
         </>

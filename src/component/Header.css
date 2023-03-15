@@ -1,10 +1,20 @@
 .header {
+  width: 100%;
+  position: sticky;
+  top: 0;
   background: linear-gradient(to bottom, rgb(2, 212, 48), aqua);
   height: 60px;
+  display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  display: flex;
   font-size: 1.75rem;
   letter-spacing: 1px;
+}
+
+.header span {
+  color: rgba(0, 49, 112, 0.79);
+  font-size: xx-large;
+  margin: 0 10px;
+  font-weight: bold;
 }

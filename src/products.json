@@ -2,26 +2,31 @@
   {
     "id": 1,
     "title": "sakız",
-    "price": 1
+    "price": 1,
+    "image": "https://productimages.hepsiburada.net/s/22/550/9952480460850.jpg/format:webp"
   },
   {
     "id": 2,
     "title": "çikolata",
-    "price": 4
+    "price": 4,
+    "image": "https://www.mismarsanalmarket.com/UserFiles/Fotograflar/org/558-8690526096599-jpg-8690526096599.jpg"
   },
   {
     "id": 3,
     "title": "deterjan",
-    "price": 10
+    "price": 10,
+    "image": "https://www.yumos.com/images/h0nadbhvm6m4/7mK9PCC7GRi3O2Vrl5Nyht/4bda6558faf92d0315b0a17c4c6bb3c1/Z3JlZW4ucG5n/1080w-1080h/yumo%C5%9F-deterjan-hassas-giysiler-paket-at%C4%B1%C5%9F.jpg"
   },
   {
     "id": 4,
     "title": "araba",
-    "price": 1000
+    "price": 1000,
+    "image": "https://cars.usnews.com/images/article/202010/126837/12_2003_ford_crown_vic_nakhon100_wikimedia.jpg"
   },
   {
     "id": 5,
     "title": "kazak",
-    "price": 50
+    "price": 50,
+    "image": "https://static.ticimax.cloud/30042/uploads/urunresimleri/buyuk/oversize-kapsonlu-kahve-sweat--31d3-.jpeg"
   }
 ]
